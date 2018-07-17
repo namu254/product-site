@@ -61,3 +61,15 @@ body{
     transform: translate(-50%, -50%);
     
 }
+@media screen and (max-width:600px){
+    .nav a{
+        padding: 10px 12px;
+        font-size: 3.5vw;
+    }
+    .hero-text{
+        font-size: 4vw
+    }
+    .main{
+        font-size: 4vw;
+    } 
+}
