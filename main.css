@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+}
+
+.nav{
+    overflow: hidden;
+    background-color: white;
+    
+}
+.nav a{
+    float: left;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: black;
+    font-size: 17px;
+}
+
+.nav a:hover:not(.brand_name)::after{
+    content: "";
+    display: block;
+    width: 70%;
+    height: 1.5px;
+    background-color: black;
+    margin: 0s auto;
+    
+}
+.nav-right{
+    float: right;  
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.main{
+    height: 1000px;
+   
+}
+
+.hero-text{
+   height: 300px;
+    background-color: white;
+    position: relative;
+    font-size: 35px;
+    
+    
+}
+.hero-text p{
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;   
+    
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
